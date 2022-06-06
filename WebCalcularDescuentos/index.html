@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <h1>CALCULADORA DE PORCENTAJES</h1>
+    </header>
+
+    <section>
+        <h2>Calcular el precio de los productos con un determinado impuesto</h2>
+    </section>
+
+    <form>
+        <label for="precio">PRECIO</label>
+        <input id="precio" placeholder="100" type="number">
+        <BR>
+        <label for="descuento">DESCUENTO</label>
+        <input id="descuento" placeholder="10" type="number">
+        <BR>
+        <button onclick="calcularprecio()" type="button"> CALCULAR DESCUENTO</button>
+        <p id="precioTotal"></p>
+    </form>
+
+    <script src="./script.js"> </script>
+</body>
+</html>
